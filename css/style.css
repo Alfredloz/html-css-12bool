@@ -1,4 +1,25 @@
 span {
- display: inline-block;
- margin-top: 100px;
+  position: absolute;
+ display: block;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin-top: 0;
+}
+.container [class*="col-"] {
+  position: relative;
+}
+/* #green-box{
+  background-color: pink;
+  border: 1px solid black;
+} */
+
+#green-box [class*="col-"]{
+  padding:10px;
+  position: relative;
+}
+#green-box [class*="col-"] > [class*="col-"] {
+  height: 175px;
+  background-color: lightgreen;
+  border: 1px solid white;
 }
