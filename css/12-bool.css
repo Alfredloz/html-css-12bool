@@ -7,11 +7,13 @@ body [class*="col-"] {
   text-align: center;
 }
 /* /DEBUG */
+/* resets */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* /resets */
 /* class utility */
 .container {
   max-width: 1170px;
@@ -23,11 +25,6 @@ body [class*="col-"] {
   clear: both;
 }
 /* /class utility */
- span {
- display: block;
- line-height: 200px;
-}
-
 /* 12 col settings */
 .col-1 {
   width: calc((100%/12)*1);
